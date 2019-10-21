@@ -1,0 +1,200 @@
+*
+{
+    margin: 0;
+    padding: 0;
+
+}
+header
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,0.5)),url(background.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.main-nav
+{
+    float: right;   
+    list-style: none;
+    margin-top: 30px;
+}
+
+.main-nav li
+{
+    display: inline-block;
+}
+
+.main-nav li a
+{
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Roboto", sans-serif;
+    font-size:15px;
+}
+.main-nav li.active a
+{
+    border: 1px solid white;
+}
+.main-nav li a:hover
+{
+    border: 1px solid white;
+}
+
+.logo img
+{
+    width: 100px;
+    height: auto;
+    float: left;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+body
+{
+    font-family: cursive;
+}
+
+.row
+{
+    max-width: 1920px;
+    margin: auto;
+}
+.hero
+{
+    position: absolute;
+    padding: 0;
+    width: 1200px;
+    height: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+
+
+h1
+{
+    color: white;
+    text-transform: uppercase;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 275px;
+}
+
+.button
+{
+    margin-top: 30px;
+    margin-left: 440px;
+}
+.btn
+{
+    border: 1px solid orange;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+.btn-one
+{
+    background-color: darkblue;
+    font-family: "Roboto", cursive;
+}
+
+.btn-two
+{
+    font-family: "Roboto", cursive;
+}
+
+
+.btn-two:hover
+{
+    background-color: darkblue;
+    transition: all 0.5s ease-in;
+}
+
+
+.loginbox
+{
+    width: 320px;
+    height: 420px;
+    background: #ffffff;
+    color: #000000;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+.male_avatar
+{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -30px;
+}
+
+h2{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+    color: black;
+}
+
+.loginbox p
+{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.loginbox input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #000000;
+    background: transparent;
+    height: 40px;
+    color: #000000;
+    font-size: 16px;
+}
+
+.loginbox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    color: white;   
+    background: rgba(22, 22, 161, 0.966);
+    width: 200px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+
+.loginbox input[type="submit"]:hover
+{
+    background-color: rgb(114, 114, 18);
+    transition: all 0.5s ease-in;
+}
+
+.loginbox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: rgb(65, 0, 0);
+}
+
+.loginbox a:hover{
+    color: red;
+}
+
+.loginbox p{
+    color: back;
+    text-decoration: none;
+    font-family: "Roboto", Helvetica;
+    font-size:16px;
+}
